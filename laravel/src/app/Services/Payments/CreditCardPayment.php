@@ -2,7 +2,7 @@
 
 namespace App\Services\Payments;
 
-use App\Contracts\PaymentGatewayInterface;
+use App\Interfaces\PaymentGatewayInterface;
 
 class CreditCardPayment implements PaymentGatewayInterface
 {
